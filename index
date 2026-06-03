@@ -1,70 +1,126 @@
-# Privacy Policy for CompressX
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - CompressX</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 20px;
+        line-height: 1.6;
+        color: #333;
+    }
+    h1, h2 {
+        color: #0d6efd;
+    }
+</style>
+</head>
+<body>
 
-Last Updated: June 2026
+<h1>Privacy Policy for CompressX</h1>
+<p><strong>Last Updated:</strong> June 2026</p>
 
-CompressX ("we", "our", or "us") respects your privacy. This Privacy Policy explains how our application collects, uses, and protects your information.
+<p>
+CompressX ("we", "our", or "us") respects your privacy. This Privacy Policy explains
+how our application collects, uses, and protects your information.
+</p>
 
-## Information We Collect
-
+<h2>Information We Collect</h2>
+<p>
 CompressX is designed to compress and optimize files directly on your device.
+</p>
 
-We may collect:
+<p>We may collect:</p>
+<ul>
+    <li>Device information (Android version, device model)</li>
+    <li>App usage and performance data</li>
+    <li>Crash reports and diagnostics</li>
+    <li>Advertising identifiers (if ads are enabled)</li>
+</ul>
 
-* Device information (Android version, device model)
-* App usage and performance data
-* Crash reports and diagnostics
-* Advertising identifiers (if ads are enabled)
-
-## Files and Media Access
-
+<h2>Files and Media Access</h2>
+<p>
 CompressX may request permission to access:
+</p>
 
-* Images
-* Videos
-* Documents
-* Other files selected by you
+<ul>
+    <li>Images</li>
+    <li>Videos</li>
+    <li>Documents</li>
+    <li>Other files selected by you</li>
+</ul>
 
-These permissions are used only to provide file compression and optimization features. Your files are processed locally on your device unless you explicitly choose a cloud-based feature.
+<p>
+These permissions are used solely to provide file compression and optimization features.
+Your files are processed locally on your device unless you explicitly choose a cloud-based feature.
+</p>
 
-## Data Sharing
-
+<h2>Data Sharing</h2>
+<p>
 We do not sell, rent, or trade your personal information.
+</p>
 
+<p>
 We may share limited technical information with trusted third-party services such as:
+</p>
 
-* Google Play Services
-* Firebase Analytics
-* Firebase Crashlytics
-* AdMob (if advertisements are displayed)
+<ul>
+    <li>Google Play Services</li>
+    <li>Firebase Analytics</li>
+    <li>Firebase Crashlytics</li>
+    <li>Google AdMob (if advertisements are displayed)</li>
+</ul>
 
+<p>
 These services may collect information according to their own privacy policies.
+</p>
 
-## Data Security
+<h2>Data Security</h2>
+<p>
+We take reasonable measures to protect user information. However, no method of electronic
+storage or transmission over the Internet is 100% secure.
+</p>
 
-We take reasonable measures to protect user information. However, no method of electronic storage or transmission over the internet is 100% secure.
+<h2>Children's Privacy</h2>
+<p>
+CompressX is not intended for children under the age of 13. We do not knowingly collect
+personal information from children.
+</p>
 
-## Children's Privacy
-
-CompressX is not directed toward children under the age of 13. We do not knowingly collect personal information from children.
-
-## Third-Party Services
-
+<h2>Third-Party Services</h2>
+<p>
 Our application may use third-party services including:
+</p>
 
-* Google Play Services
-* Firebase
-* Google AdMob
+<ul>
+    <li>Google Play Services</li>
+    <li>Firebase</li>
+    <li>Google AdMob</li>
+</ul>
 
-Please review their respective privacy policies for additional information.
+<h2>Changes to This Privacy Policy</h2>
+<p>
+We may update this Privacy Policy from time to time. Any changes will be posted on this page
+with an updated revision date.
+</p>
 
-## Changes to This Privacy Policy
-
-We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date.
-
-## Contact Us
-
+<h2>Contact Us</h2>
+<p>
 If you have any questions regarding this Privacy Policy, please contact us at:
+</p>
 
-Email: info.nitish1997@gmail.com
+<p>
+<strong>Email:</strong> info.nitish1997@gmail.com
+</p>
 
+<p>
 By using CompressX, you agree to this Privacy Policy.
+</p>
+
+</body>
+</html>
+```
