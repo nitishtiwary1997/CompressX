@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SmartCompress" parent="Theme.SplashScreen">
+        <!-- Full-screen background color -->
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+
+        <!-- App logo shown in the center circle -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+
+        <!-- Color of the circle drawn behind the logo (Android 12+) -->
+        <item name="windowSplashScreenIconBackgroundColor">@color/splash_icon_bg</item>
+
+        <item name="postSplashScreenTheme">@style/Theme.SmartCompress.Main</item>
+    </style>
+
+    <style name="Theme.SmartCompress.Main" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

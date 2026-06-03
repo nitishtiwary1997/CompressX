@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Splash screen branding shown at the bottom (windowSplashScreenBrandingImage).
+    Uses the app icon as a small watermark-style branding mark.
+    Replace this with a custom app-name PNG for text-based branding.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="center">
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/app_logo"
+            android:tileMode="disabled" />
+    </item>
+</layer-list>

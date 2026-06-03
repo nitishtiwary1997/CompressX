@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Adaptive icon foreground — places app_logo.png within the 108dp foreground viewport
+    with 18dp inset on each side so the logo sits inside the 72dp safe zone.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="18dp"
+        android:top="18dp"
+        android:right="18dp"
+        android:bottom="18dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/app_logo" />
+    </item>
+</layer-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Splash screen icon — wraps app_logo.png (192×192 RGBA) as a centered bitmap.
+    Android 12+ renders this inside a 240dp circle using windowSplashScreenIconBackgroundColor.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/app_logo" />
+    </item>
+</layer-list>

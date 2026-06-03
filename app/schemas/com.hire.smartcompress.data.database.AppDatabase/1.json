@@ -1,0 +1,107 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "87f4243cba0e90c33109d4e8a865cdd2",
+    "entities": [
+      {
+        "tableName": "compression_history",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `fileName` TEXT NOT NULL, `fileType` TEXT NOT NULL, `originalSize` INTEGER NOT NULL, `compressedSize` INTEGER NOT NULL, `savedSize` INTEGER NOT NULL, `compressionDate` INTEGER NOT NULL, `originalPath` TEXT NOT NULL, `compressedPath` TEXT NOT NULL, `processingTimeMs` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fileName",
+            "columnName": "fileName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "fileType",
+            "columnName": "fileType",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "originalSize",
+            "columnName": "originalSize",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "compressedSize",
+            "columnName": "compressedSize",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "savedSize",
+            "columnName": "savedSize",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "compressionDate",
+            "columnName": "compressionDate",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "originalPath",
+            "columnName": "originalPath",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "compressedPath",
+            "columnName": "compressedPath",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "processingTimeMs",
+            "columnName": "processingTimeMs",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_compression_history_compressionDate",
+            "unique": false,
+            "columnNames": [
+              "compressionDate"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_compression_history_compressionDate` ON `${TABLE_NAME}` (`compressionDate`)"
+          },
+          {
+            "name": "index_compression_history_fileType",
+            "unique": false,
+            "columnNames": [
+              "fileType"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_compression_history_fileType` ON `${TABLE_NAME}` (`fileType`)"
+          }
+        ],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '87f4243cba0e90c33109d4e8a865cdd2')"
+    ]
+  }
+}

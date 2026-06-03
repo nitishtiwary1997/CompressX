@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Purple brand background (matches splash screen) -->
+    <background android:drawable="@color/splash_background" />
+    <!-- App logo centered in the safe zone -->
+    <foreground android:drawable="@drawable/app_logo_adaptive" />
+    <!-- Monochrome variant for themed icons (Android 13+) -->
+    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>
